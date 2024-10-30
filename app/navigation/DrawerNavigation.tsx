@@ -33,13 +33,13 @@ const CustomDrawerContent = (props: DrawerContentComponentProps) => {
         <View style={styles.container}>
             <DrawerContentScrollView {...props}>
                 <DrawerItem
-                    label='ChatGPT'
+                    label='Chat'
                     labelStyle={styles.drawerItemLabel}
                     icon={() => <Ionicons name='create-outline' size={24} color='white' />}
                     onPress={() => props.navigation.navigate('Chat')}
                 />
                 <DrawerItem
-                    label='DALL·E'
+                    label='Images'
                     labelStyle={styles.drawerItemLabel}
                     icon={() => <Ionicons name='image-outline' size={24} color='white' />}
                     onPress={() => props.navigation.navigate('Images')}

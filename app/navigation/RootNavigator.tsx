@@ -4,7 +4,12 @@ import DrawerNavigation from './DrawerNavigation';
 
 export default function RootNavigator() {
   return (
-      <NavigationContainer >
+      <NavigationContainer 
+        documentTitle={{
+          formatter: (options, route) =>
+            `HildyGPT - ${options?.title ?? route?.name}`
+      }}
+      >
         <DrawerNavigation />
       </NavigationContainer>
   );
