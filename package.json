@@ -14,6 +14,7 @@
     "@react-native-community/cli": "^15.0.1-alpha.0",
     "@react-navigation/drawer": "^6.6.15",
     "@react-navigation/native": "^6.1.17",
+    "aws-amplify": "^6.8.0",
     "expo": "^45.0.8",
     "expo-av": "^14.0.7",
     "expo-status-bar": "~1.12.1",
@@ -32,10 +33,17 @@
     "rxjs": "^7.8.1"
   },
   "devDependencies": {
+    "@aws-amplify/backend": "^1.6.2",
+    "@aws-amplify/backend-cli": "^1.4.1",
     "@babel/core": "^7.20.0",
     "@types/react": "~18.2.45",
     "@types/react-native": "^0.73.0",
-    "typescript": "~5.3.3"
+    "aws-cdk": "^2.165.0",
+    "aws-cdk-lib": "^2.165.0",
+    "constructs": "^10.4.2",
+    "esbuild": "^0.24.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
   },
   "private": true
 }
